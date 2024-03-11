@@ -4,13 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>telran.aws</groupId>
 	<artifactId>api-aws-handler</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 	<dependencies>
-		
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
@@ -38,7 +37,11 @@
 			<version>3.11.4</version>
 		</dependency>
 
-		
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-dynamodb</artifactId>
+			<version>1.12.640</version>
+		</dependency>
 
 	</dependencies>
 	<build>
